@@ -14,7 +14,7 @@
 
 class DenseLayer {
 public:
-    DenseLayer(const unsigned int inputSize, const unsigned int units, ActivationFunction activationFunction);
+    DenseLayer(unsigned int inputSize, unsigned int units, std::string activationName);
 
     arma::Mat<double> feedForward(const arma::Mat<double> &inputValue);
 
@@ -35,7 +35,7 @@ private:
     arma::Mat<double> gradient;
     arma::Mat<double> input;
     arma::Mat<double> output;
-    ActivationFunction activationFunction;
+    ActivationFunction *activationFunction;
 };
 
 #endif //NEURAL_NET_DENSELAYER_H

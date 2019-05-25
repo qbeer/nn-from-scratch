@@ -1,14 +1,14 @@
 //
-// Created by olaralex on 2019.05.23..
+// Created by olaralex on 2019.05.25..
 //
 
-#ifndef NEURAL_NET_RELU_H
-#define NEURAL_NET_RELU_H
+#ifndef NEURAL_NET_SIGMOID_H
+#define NEURAL_NET_SIGMOID_H
 
 
 #include "ActivationFunction.h"
 
-class ReLU : public ActivationFunction {
+class Sigmoid : public ActivationFunction {
 public:
     arma::Mat<double> call(arma::Mat<double> value);
 
@@ -16,4 +16,4 @@ public:
 };
 
 
-#endif //NEURAL_NET_RELU_H
+#endif //NEURAL_NET_SIGMOID_H

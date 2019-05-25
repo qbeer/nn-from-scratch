@@ -102,6 +102,12 @@
 		<Unit filename="/home/olaralex/CLionProjects/neural-net/src/DenseLayer.h">
 			<Option target="neural_net"/>
 		</Unit>
+		<Unit filename="/home/olaralex/CLionProjects/neural-net/src/LinearActivation.cpp">
+			<Option target="neural_net"/>
+		</Unit>
+		<Unit filename="/home/olaralex/CLionProjects/neural-net/src/LinearActivation.h">
+			<Option target="neural_net"/>
+		</Unit>
 		<Unit filename="/home/olaralex/CLionProjects/neural-net/src/Model.cpp">
 			<Option target="neural_net"/>
 		</Unit>
@@ -112,6 +118,12 @@
 			<Option target="neural_net"/>
 		</Unit>
 		<Unit filename="/home/olaralex/CLionProjects/neural-net/src/ReLU.h">
+			<Option target="neural_net"/>
+		</Unit>
+		<Unit filename="/home/olaralex/CLionProjects/neural-net/src/Sigmoid.cpp">
+			<Option target="neural_net"/>
+		</Unit>
+		<Unit filename="/home/olaralex/CLionProjects/neural-net/src/Sigmoid.h">
 			<Option target="neural_net"/>
 		</Unit>
 		<Unit filename="/home/olaralex/CLionProjects/neural-net/CMakeLists.txt">

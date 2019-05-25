@@ -7,6 +7,7 @@ CMakeFiles/neural_net.dir/main.cpp.o: ../src/DataReader.h
 CMakeFiles/neural_net.dir/main.cpp.o: ../src/DenseLayer.h
 CMakeFiles/neural_net.dir/main.cpp.o: ../src/Model.h
 CMakeFiles/neural_net.dir/main.cpp.o: ../src/ReLU.h
+CMakeFiles/neural_net.dir/main.cpp.o: ../src/Sigmoid.h
 
 CMakeFiles/neural_net.dir/src/DataReader.cpp.o: ../src/DataReader.cpp
 CMakeFiles/neural_net.dir/src/DataReader.cpp.o: ../src/DataReader.h
@@ -14,6 +15,13 @@ CMakeFiles/neural_net.dir/src/DataReader.cpp.o: ../src/DataReader.h
 CMakeFiles/neural_net.dir/src/DenseLayer.cpp.o: ../src/ActivationFunction.h
 CMakeFiles/neural_net.dir/src/DenseLayer.cpp.o: ../src/DenseLayer.cpp
 CMakeFiles/neural_net.dir/src/DenseLayer.cpp.o: ../src/DenseLayer.h
+CMakeFiles/neural_net.dir/src/DenseLayer.cpp.o: ../src/LinearActivation.h
+CMakeFiles/neural_net.dir/src/DenseLayer.cpp.o: ../src/ReLU.h
+CMakeFiles/neural_net.dir/src/DenseLayer.cpp.o: ../src/Sigmoid.h
+
+CMakeFiles/neural_net.dir/src/LinearActivation.cpp.o: ../src/ActivationFunction.h
+CMakeFiles/neural_net.dir/src/LinearActivation.cpp.o: ../src/LinearActivation.cpp
+CMakeFiles/neural_net.dir/src/LinearActivation.cpp.o: ../src/LinearActivation.h
 
 CMakeFiles/neural_net.dir/src/Model.cpp.o: ../src/ActivationFunction.h
 CMakeFiles/neural_net.dir/src/Model.cpp.o: ../src/DenseLayer.h
@@ -23,4 +31,8 @@ CMakeFiles/neural_net.dir/src/Model.cpp.o: ../src/Model.h
 CMakeFiles/neural_net.dir/src/ReLU.cpp.o: ../src/ActivationFunction.h
 CMakeFiles/neural_net.dir/src/ReLU.cpp.o: ../src/ReLU.cpp
 CMakeFiles/neural_net.dir/src/ReLU.cpp.o: ../src/ReLU.h
+
+CMakeFiles/neural_net.dir/src/Sigmoid.cpp.o: ../src/ActivationFunction.h
+CMakeFiles/neural_net.dir/src/Sigmoid.cpp.o: ../src/Sigmoid.cpp
+CMakeFiles/neural_net.dir/src/Sigmoid.cpp.o: ../src/Sigmoid.h
 

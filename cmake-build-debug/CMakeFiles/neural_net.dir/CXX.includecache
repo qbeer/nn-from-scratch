@@ -11,6 +11,8 @@ src/DenseLayer.h
 /home/olaralex/CLionProjects/neural-net/src/DenseLayer.h
 src/ReLU.h
 /home/olaralex/CLionProjects/neural-net/src/ReLU.h
+src/Sigmoid.h
+/home/olaralex/CLionProjects/neural-net/src/Sigmoid.h
 src/DataReader.h
 /home/olaralex/CLionProjects/neural-net/src/DataReader.h
 src/Model.h
@@ -55,6 +57,10 @@ iostream
 -
 
 /home/olaralex/CLionProjects/neural-net/src/ReLU.h
+ActivationFunction.h
+/home/olaralex/CLionProjects/neural-net/src/ActivationFunction.h
+
+/home/olaralex/CLionProjects/neural-net/src/Sigmoid.h
 ActivationFunction.h
 /home/olaralex/CLionProjects/neural-net/src/ActivationFunction.h
 

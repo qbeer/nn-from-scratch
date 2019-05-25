@@ -8,6 +8,7 @@ CMakeFiles/neural_net.dir/main.cpp.o
  /home/olaralex/CLionProjects/neural-net/src/DenseLayer.h
  /home/olaralex/CLionProjects/neural-net/src/Model.h
  /home/olaralex/CLionProjects/neural-net/src/ReLU.h
+ /home/olaralex/CLionProjects/neural-net/src/Sigmoid.h
 CMakeFiles/neural_net.dir/src/DataReader.cpp.o
  /home/olaralex/CLionProjects/neural-net/src/DataReader.cpp
  /home/olaralex/CLionProjects/neural-net/src/DataReader.h
@@ -15,6 +16,13 @@ CMakeFiles/neural_net.dir/src/DenseLayer.cpp.o
  /home/olaralex/CLionProjects/neural-net/src/ActivationFunction.h
  /home/olaralex/CLionProjects/neural-net/src/DenseLayer.cpp
  /home/olaralex/CLionProjects/neural-net/src/DenseLayer.h
+ /home/olaralex/CLionProjects/neural-net/src/LinearActivation.h
+ /home/olaralex/CLionProjects/neural-net/src/ReLU.h
+ /home/olaralex/CLionProjects/neural-net/src/Sigmoid.h
+CMakeFiles/neural_net.dir/src/LinearActivation.cpp.o
+ /home/olaralex/CLionProjects/neural-net/src/ActivationFunction.h
+ /home/olaralex/CLionProjects/neural-net/src/LinearActivation.cpp
+ /home/olaralex/CLionProjects/neural-net/src/LinearActivation.h
 CMakeFiles/neural_net.dir/src/Model.cpp.o
  /home/olaralex/CLionProjects/neural-net/src/ActivationFunction.h
  /home/olaralex/CLionProjects/neural-net/src/DenseLayer.h
@@ -24,3 +32,7 @@ CMakeFiles/neural_net.dir/src/ReLU.cpp.o
  /home/olaralex/CLionProjects/neural-net/src/ActivationFunction.h
  /home/olaralex/CLionProjects/neural-net/src/ReLU.cpp
  /home/olaralex/CLionProjects/neural-net/src/ReLU.h
+CMakeFiles/neural_net.dir/src/Sigmoid.cpp.o
+ /home/olaralex/CLionProjects/neural-net/src/ActivationFunction.h
+ /home/olaralex/CLionProjects/neural-net/src/Sigmoid.cpp
+ /home/olaralex/CLionProjects/neural-net/src/Sigmoid.h

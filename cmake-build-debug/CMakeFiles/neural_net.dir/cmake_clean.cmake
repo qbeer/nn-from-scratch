@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/neural_net.dir/src/ReLU.cpp.o"
   "CMakeFiles/neural_net.dir/src/DataReader.cpp.o"
   "CMakeFiles/neural_net.dir/src/Model.cpp.o"
+  "CMakeFiles/neural_net.dir/src/LinearActivation.cpp.o"
+  "CMakeFiles/neural_net.dir/src/Sigmoid.cpp.o"
   "neural_net.pdb"
   "neural_net"
 )

@@ -13,15 +13,20 @@
 class Model {
 public:
     Model();
+
     void add(DenseLayer layer);
-    void fit(arma::mat data, arma::mat target, double learningRate, int EPOCHS);
+
+    void fit(const arma::mat &data, const arma::mat &target, double learningRate, int EPOCHS);
+
+    std::vector<double> predict(const arma::mat &data);
 
 private:
     std::vector<DenseLayer> layers;
-    arma::mat gradient;
-    arma::mat feedValue;
-    arma::mat fullForwardPass(const arma::mat &input);
-    arma::mat fullBackwardPass(const arma::mat &input);
+
+    arma::mat fullForwardPass(arma::mat input);
+
+    arma::mat fullBackwardPass(arma::mat grad);
+
     void applyGradients(const double learningRate);
 };
 

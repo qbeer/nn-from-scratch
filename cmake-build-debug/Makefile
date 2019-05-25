@@ -204,6 +204,33 @@ src/DenseLayer.cpp.s:
 	$(MAKE) -f CMakeFiles/neural_net.dir/build.make CMakeFiles/neural_net.dir/src/DenseLayer.cpp.s
 .PHONY : src/DenseLayer.cpp.s
 
+src/LinearActivation.o: src/LinearActivation.cpp.o
+
+.PHONY : src/LinearActivation.o
+
+# target to build an object file
+src/LinearActivation.cpp.o:
+	$(MAKE) -f CMakeFiles/neural_net.dir/build.make CMakeFiles/neural_net.dir/src/LinearActivation.cpp.o
+.PHONY : src/LinearActivation.cpp.o
+
+src/LinearActivation.i: src/LinearActivation.cpp.i
+
+.PHONY : src/LinearActivation.i
+
+# target to preprocess a source file
+src/LinearActivation.cpp.i:
+	$(MAKE) -f CMakeFiles/neural_net.dir/build.make CMakeFiles/neural_net.dir/src/LinearActivation.cpp.i
+.PHONY : src/LinearActivation.cpp.i
+
+src/LinearActivation.s: src/LinearActivation.cpp.s
+
+.PHONY : src/LinearActivation.s
+
+# target to generate assembly for a file
+src/LinearActivation.cpp.s:
+	$(MAKE) -f CMakeFiles/neural_net.dir/build.make CMakeFiles/neural_net.dir/src/LinearActivation.cpp.s
+.PHONY : src/LinearActivation.cpp.s
+
 src/Model.o: src/Model.cpp.o
 
 .PHONY : src/Model.o
@@ -258,6 +285,33 @@ src/ReLU.cpp.s:
 	$(MAKE) -f CMakeFiles/neural_net.dir/build.make CMakeFiles/neural_net.dir/src/ReLU.cpp.s
 .PHONY : src/ReLU.cpp.s
 
+src/Sigmoid.o: src/Sigmoid.cpp.o
+
+.PHONY : src/Sigmoid.o
+
+# target to build an object file
+src/Sigmoid.cpp.o:
+	$(MAKE) -f CMakeFiles/neural_net.dir/build.make CMakeFiles/neural_net.dir/src/Sigmoid.cpp.o
+.PHONY : src/Sigmoid.cpp.o
+
+src/Sigmoid.i: src/Sigmoid.cpp.i
+
+.PHONY : src/Sigmoid.i
+
+# target to preprocess a source file
+src/Sigmoid.cpp.i:
+	$(MAKE) -f CMakeFiles/neural_net.dir/build.make CMakeFiles/neural_net.dir/src/Sigmoid.cpp.i
+.PHONY : src/Sigmoid.cpp.i
+
+src/Sigmoid.s: src/Sigmoid.cpp.s
+
+.PHONY : src/Sigmoid.s
+
+# target to generate assembly for a file
+src/Sigmoid.cpp.s:
+	$(MAKE) -f CMakeFiles/neural_net.dir/build.make CMakeFiles/neural_net.dir/src/Sigmoid.cpp.s
+.PHONY : src/Sigmoid.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,12 +330,18 @@ help:
 	@echo "... src/DenseLayer.o"
 	@echo "... src/DenseLayer.i"
 	@echo "... src/DenseLayer.s"
+	@echo "... src/LinearActivation.o"
+	@echo "... src/LinearActivation.i"
+	@echo "... src/LinearActivation.s"
 	@echo "... src/Model.o"
 	@echo "... src/Model.i"
 	@echo "... src/Model.s"
 	@echo "... src/ReLU.o"
 	@echo "... src/ReLU.i"
 	@echo "... src/ReLU.s"
+	@echo "... src/Sigmoid.o"
+	@echo "... src/Sigmoid.i"
+	@echo "... src/Sigmoid.s"
 .PHONY : help
 
 

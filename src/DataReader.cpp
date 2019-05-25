@@ -40,7 +40,7 @@ void DataReader::readFile() {
     }
 
     arma::mat data_mat = arma::zeros<arma::mat>(datas.size(), datas[0].size() - 1);
-    arma::mat target_mat = arma::zeros<arma::mat>(datas.size(), 1);
+    arma::mat target_mat = arma::zeros<arma::mat>(datas.size());
 
     for (int i = 0; i < datas.size(); i++) {
         std::vector<double>::const_iterator first = datas[i].begin() + 1;
@@ -50,6 +50,7 @@ void DataReader::readFile() {
     }
 
     std::vector<double> target(datas.size());
+
     for (int i = 0; i < datas.size(); i++) {
         target[i] = datas[i][0] * 255.;
     }
