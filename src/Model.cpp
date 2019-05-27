@@ -17,9 +17,9 @@ void Model::fit(const arma::mat &data, const arma::mat &target, double learningR
             arma::Mat<double> output = this->fullForwardPass(data.submat(row_ind, 0, row_ind, data.n_cols - 1));
             arma::mat gradient = this->fullBackwardPass(-2 * (target.at(row_ind) / 10. - output)); // percentages
 
-            if (row_ind % 10 == 0) {
+            if (row_ind % 100 == 0) {
                 std::cout << "Loss : " << arma::accu(arma::square(output - target.at(row_ind) / 10.)) << "\tEPOCH : "
-                          << i
+                          << i + 1 << " " << row_ind
                           << "\tGradient size : " << arma::accu(arma::sqrt((arma::square(gradient)))) << std::endl;
             }
 

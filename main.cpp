@@ -13,13 +13,13 @@ int main() {
     arma::mat labels = reader.getLabels();
 
     Model model;
-    model.add(DenseLayer(784, 200, "relu"));
+    model.add(DenseLayer(784, 500, "relu"));
+    model.add(DenseLayer(500, 300, "relu"));
+    model.add(DenseLayer(300, 200, "relu"));
     model.add(DenseLayer(200, 100, "relu"));
-    model.add(DenseLayer(100, 50, "relu"));
-    model.add(DenseLayer(50, 25, "relu"));
-    model.add(DenseLayer(25, 1, "sigmoid"));
+    model.add(DenseLayer(100, 1, "sigmoid"));
 
-    model.fit(data, labels, 1e-4, 125);
+    model.fit(data, labels, 1e-1, 100);
 
     std::vector<double> predictions = model.predict(data);
     std::vector<double> actual_labels = std::vector<double>(labels.memptr(), labels.memptr() + labels.size() - 1);
